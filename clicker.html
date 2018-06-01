@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles/catStyles.css">
+        <title>Cat Clicker</title>
+    </head>
+
+    <body>
+        <h1>Cat Clicker</h1>
+        <p></p>
+    
+        <div class="row">
+            <div class="column">
+                <div class="menu" id="menu"></div>
+                <div class="detail" id="detail"></div>
+            </div>
+            <div class="column">
+                <div class="admin-area">
+                    <div class="admin-header">
+                        <button class="button" id="adminButton">admin</button>
+                    </div>
+                    <div id="admin-content" style="display: none">
+                        <form id="admin-form" onsubmit="octopus.adminSubmitButtonPressed(); return false;">
+                            <br>
+                            <div id="form-cat-name">Settings of Name</div> <br>
+                            Name: <br>
+                            <input type="text" name="name" id="form-name-input"><br>
+                            ClicksNum: <br>
+                            <input type="text" name="clicksNum" id="form-click-input"><br>
+                            Img: <br>
+                            <input type="text" name="img" id="form-img-input"><br>
+                            <br>
+                            <input type="submit" value="Submit" id="submit-button">
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+<script src="scripts/catScript.js"></script>

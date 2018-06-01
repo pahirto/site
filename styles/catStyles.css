@@ -1,0 +1,46 @@
+
+* {
+    font-family: 'Oswald', sans-serif;
+    color: #466995;
+    font-weight: 700;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+h1 {
+    color: #466995;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 50px;
+}
+
+.button{
+    border-radius: 12px;
+    padding: 10px 15px;
+    background-color: #e7e7e7;
+    color: #466995;
+}
+
+.img{
+    padding:1px;
+    border:1px solid #021a40;
+    max-width:300px;
+    max-height: auto;
+}
